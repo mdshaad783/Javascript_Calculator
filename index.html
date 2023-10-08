@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto&family=Shadows+Into+Light&family=Varela&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="screen" id="screen"></div>
+        <hr>
+    <div id="row1">
+        <button class="highbtn" id="ac" onclick="myfun1()">AC</button>
+    <button class="highbtn" id="d" onclick="myfun('d')">Del</button>
+    <button class="highbtn" id="cent" onclick="myfun('cent')">%</button>
+    <button class="highbtn" id="divi" onclick="myfun('divi')">/</button>
+    </div>
+    <div id="row2">
+        <button id="seven" onclick="myfun('seven')">7</button>
+    <button id="eight" onclick="myfun('eight')">8</button>
+    <button id="nine" onclick="myfun('nine')">9</button>
+    <button class="highbtn" id="multi" onclick="myfun('multi')">*</button>
+    </div>
+    <div id="row3">
+        <button id="four" onclick="myfun('four')">4</button>
+    <button id="five" onclick="myfun('five')">5</button>
+    <button id="six" onclick="myfun('six')">6</button>
+    <button class="highbtn" id="sub" onclick="myfun('sub')">-</button>
+    </div>
+    <div id="row4">
+        <button id="one" onclick="myfun('one')">1</button>
+    <button id="two" onclick="myfun('two')">2</button>
+    <button id="three" onclick="myfun('three')">3</button>
+    <button class="highbtn" id="plus" onclick="myfun('plus')">+</button>
+    </div>
+    <div id="row5">
+        <button id="zero" onclick="myfun('zero')">0</button>
+        <button>.</button>
+    <button id="eq" class="highbtn" onclick="myfun('eq')">=</button>
+    
+    </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
