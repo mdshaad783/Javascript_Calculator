@@ -20,3 +20,6 @@
             document.getElementById("screen").innerHTML = string;}
         }
     
+function mysite(){
+            window.location = "https://mdshaad783.github.io/mdshaad.github.io/"
+        }
